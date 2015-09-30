@@ -27,7 +27,10 @@ def get_network_driver(vendor):
         'JUNOS': JunOSDriver,
         'JUNIPER': JunOSDriver,
         'FORTIOS': FortiOSDriver,
+<<<<<<< 2265282b7a5377c844d613e575b325f6c119bd81
         'IBM': IBMDriver,
+=======
+>>>>>>> Correct fortios to uppercase in driver_mapping()
     }
     try:
         return driver_mapping[vendor.upper()]
